@@ -24,7 +24,7 @@ function App(props) {
       <div>{error}</div>
       <div>
         <Router>
-          <Switch>
+          <Switch> 
             <Route path="/login">
               <LoginThunkForm />
             </Route>
